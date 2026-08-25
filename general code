@@ -1,0 +1,22 @@
+<!-- This is an HTML comment 
+
+
+
+
+
+Makes gif clickable
+  <a href="secret/">
+    <img src="image/antispicecool.gif" class="web-gif">
+</a> 
+
+#Makes gif row
+
+<div class="gif-row">
+insert gifs/images
+
+</div>
+
+
+
+-->
+
