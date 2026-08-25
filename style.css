@@ -1,0 +1,27 @@
+body {
+    background-color: #000080;
+    color: yellow;
+    font-family: "Comic Sans MS", "Times New Roman", serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: red;
+    text-shadow: 3px 3px lime;
+}
+
+h2 {
+    color: lime;
+    font-size: 32px;
+}
+
+p {
+    font-size: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 5px dashed yellow;
+    margin: 30px;
+}
