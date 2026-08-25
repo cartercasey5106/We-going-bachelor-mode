@@ -172,3 +172,15 @@ main {
     border: 5px ridge #c0c0c0;
     margin: 15px;
 }
+.blink {
+    animation: blink 0.8s steps(2, start) infinite;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+@keyframes blink {
+    50% {
+        visibility: hidden;
+    }
+}
