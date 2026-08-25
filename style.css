@@ -106,3 +106,62 @@ footer {
     text-align: center;
     font-size: 14px;
 }
+
+.website-layout {
+    display: flex;
+    align-items: stretch;
+}
+
+aside {
+    width: 180px;
+    flex-shrink: 0;
+    background-color: #000000;
+    border: 6px ridge #c0c0c0;
+    padding: 10px;
+    text-align: center;
+}
+
+aside h3 {
+    color: #00ff00;
+    font-size: 20px;
+}
+
+aside a {
+    display: block;
+    margin: 15px 0;
+    color: #00ffff;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+aside a:hover {
+    background-color: #ffff00;
+    color: #ff0000;
+}
+
+aside hr {
+    margin: 20px 0;
+}
+
+aside p {
+    font-size: 14px;
+}
+
+.counter {
+    color: #ff0000;
+    background-color: #ffffff;
+    border: 3px inset #c0c0c0;
+    padding: 5px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.online {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    min-width: 0;
+}
