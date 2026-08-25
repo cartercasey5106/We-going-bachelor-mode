@@ -1,27 +1,108 @@
 body {
+    margin: 0;
     background-color: #000080;
-    color: yellow;
+    color: #ffff00;
     font-family: "Comic Sans MS", "Times New Roman", serif;
-    text-align: center;
+}
+
+.page {
+    width: 850px;
+    margin: 10px auto;
+    background-color: #000000;
+    border: 8px ridge #c0c0c0;
+    padding: 10px;
+}
+
+header {
+    background-color: #ff00ff;
+    border: 6px outset #ffff00;
+    padding: 10px;
 }
 
 h1 {
-    font-size: 48px;
-    color: red;
-    text-shadow: 3px 3px lime;
+    margin: 0;
+    color: #00ff00;
+    font-size: 42px;
+    text-align: center;
+    text-shadow: 4px 4px #000000;
+}
+
+.subtitle {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.marquee {
+    margin: 15px 0;
+    padding: 8px;
+    background-color: #ffff00;
+    color: #ff0000;
+    border: 4px ridge #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav {
+    background-color: #c0c0c0;
+    border: 5px outset #ffffff;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+}
+
+nav a {
+    color: #0000ff;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #800080;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 25px 0;
 }
 
 h2 {
-    color: lime;
-    font-size: 32px;
+    color: #ff00ff;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 hr {
-    border: none;
-    border-top: 5px dashed yellow;
-    margin: 30px;
+    border: 0;
+    border-top: 6px dotted #00ff00;
+    margin: 30px 0;
+}
+
+button {
+    background-color: #c0c0c0;
+    color: #000000;
+    border: 5px outset #ffffff;
+    padding: 10px 20px;
+    font-family: "Comic Sans MS", serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:active {
+    border-style: inset;
+}
+
+footer {
+    border-top: 5px double #ffff00;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
 }
