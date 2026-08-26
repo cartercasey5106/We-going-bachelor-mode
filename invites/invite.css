@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-color: #000080;
+
+    color: #ffff00;
+    font-family: "Comic Sans MS", "Times New Roman", serif;
+}
+
+.invite-page {
+    min-height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.invite-box {
+    width: 700px;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+
+    background-color: #000000;
+    border: 6px ridge #c0c0c0;
+}
