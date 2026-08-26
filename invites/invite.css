@@ -1,13 +1,144 @@
 body {
-    background-color: blue;
-    color: yellow;
+    margin: 0;
+    min-height: 100vh;
+
+    background-color: #000080;
+
+    color: #ffff00;
+    font-family: "Comic Sans MS", "Times New Roman", serif;
 }
 
+/* Main invitation area */
+
+.invite-page {
+    min-height: 100vh;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+/* The actual invitation */
+
 .invite-box {
-    background-color: black;
-    border: 10px ridge gray;
-    width: 500px;
-    margin: 50px auto;
+    width: 650px;
+    max-width: 90%;
+    margin: 30px auto;
     padding: 30px;
+
+    background-color: #000000;
+    border: 8px ridge #c0c0c0;
+
     text-align: center;
+}
+
+/* Main title */
+
+.invite-title {
+    color: #ff00ff;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    text-decoration: underline;
+}
+
+/* Small subtitle */
+
+.invite-subtitle {
+    color: #00ff00;
+    font-size: 18px;
+}
+
+/* Sections */
+
+.invite-section {
+    margin: 30px 0;
+    padding: 15px;
+
+    border: 4px ridge #808080;
+    background-color: #000033;
+}
+
+/* Section headings */
+
+.invite-section h2 {
+    color: #00ffff;
+    font-size: 24px;
+}
+
+/* Normal text */
+
+.invite-box p {
+    font-size: 18px;
+}
+
+/* Important information */
+
+.important {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Links */
+
+.invite-box a {
+    color: #00ffff;
+    font-weight: bold;
+}
+
+.invite-box a:visited {
+    color: #ff00ff;
+}
+
+.invite-box a:hover {
+    color: #ffff00;
+    background-color: #ff0000;
+}
+
+/* GIFs */
+
+.invite-gif {
+    max-width: 100%;
+    height: auto;
+    margin: 15px;
+    border: 5px ridge #c0c0c0;
+}
+
+/* Big RSVP button */
+
+.rsvp-button {
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    background-color: #c0c0c0;
+    color: #000000 !important;
+
+    border: 5px outset #ffffff;
+
+    font-family: "Comic Sans MS", serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.rsvp-button:hover {
+    background-color: #ffff00;
+    color: #ff0000 !important;
+}
+
+.rsvp-button:active {
+    border-style: inset;
+}
+
+/* Footer */
+
+.invite-footer {
+    margin-top: 30px;
+    padding-top: 15px;
+
+    border-top: 5px double #ffff00;
+
+    font-size: 14px;
 }
