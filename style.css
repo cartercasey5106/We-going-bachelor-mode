@@ -172,6 +172,13 @@ main {
     border: 5px ridge #c0c0c0;
     margin: 5px;
 }
+
+.web-border-gif {
+    max-width: 100%;
+    height: auto;
+    border: 5px ridge #c0c0c0;
+    margin: 5px;
+    
 .blink {
     animation: blink 0.8s steps(2, start) infinite;
     color: #ff0000;
