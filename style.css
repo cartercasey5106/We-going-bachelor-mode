@@ -194,7 +194,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 1px;
+    column-gap: 3px;
     row-gap: 5px;
     flex-wrap: wrap;
 }
