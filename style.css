@@ -195,6 +195,6 @@ main {
     justify-content: center;
     align-items: center;
     column-gap: 1px;
-    row-gap: 1px;
+    row-gap: 5px;
     flex-wrap: wrap;
 }
