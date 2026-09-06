@@ -23,9 +23,7 @@ body.will {
 
 body.nathan {
     background-image: url("../image/nathanbg.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-repeat:repeat;
 }
 /* Main invitation area */
 
