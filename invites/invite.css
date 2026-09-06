@@ -46,7 +46,12 @@ body.gautham {
     background-repeat:repeat;
 }
 
-
+body.luke {
+    background-image: url("../image/lukebg.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /* Main invitation area */
 
 .invite-page {
