@@ -14,8 +14,10 @@ body.zack {
 
 }
 
-body.john {
-    background-image: url("../image/john-bg.jpeg");
+body.will {
+    background-color: #000000;
+
+    background-image: url("../image/willbg.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
