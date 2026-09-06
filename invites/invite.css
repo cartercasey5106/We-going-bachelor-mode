@@ -36,6 +36,10 @@ body.gabe {
     background-repeat:repeat;
 }
 
+body.grace {
+    background-image: url("../image/gracebg.gif");
+    background-repeat:repeat;
+}
 
 /* Main invitation area */
 
