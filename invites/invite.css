@@ -41,6 +41,12 @@ body.grace {
     background-repeat:repeat;
 }
 
+body.gautham {
+    background-image: url("../image/gbg.gif");
+    background-repeat:repeat;
+}
+
+
 /* Main invitation area */
 
 .invite-page {
