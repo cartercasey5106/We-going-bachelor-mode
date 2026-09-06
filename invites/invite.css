@@ -25,6 +25,11 @@ body.nathan {
     background-image: url("../image/nathanbg.gif");
     background-repeat:repeat;
 }
+
+body.keith {
+    background-image: url("../image/keithbg.gif");
+    background-repeat:repeat;
+}
 /* Main invitation area */
 
 .invite-page {
