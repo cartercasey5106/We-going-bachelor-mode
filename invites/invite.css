@@ -15,14 +15,18 @@ body.zack {
 }
 
 body.will {
-
-
     background-image: url("../image/willbg.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
+body.nathan {
+    background-image: url("../image/nathanbg.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /* Main invitation area */
 
 .invite-page {
