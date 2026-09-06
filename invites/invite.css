@@ -30,6 +30,13 @@ body.keith {
     background-image: url("../image/keithbg.gif");
     background-repeat:repeat;
 }
+
+body.gabe {
+    background-image: url("../image/gabebg.gif");
+    background-repeat:repeat;
+}
+
+
 /* Main invitation area */
 
 .invite-page {
