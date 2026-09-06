@@ -8,6 +8,19 @@ body {
     font-family: "Comic Sans MS", "Times New Roman", serif;
 }
 
+body.zack {
+    background-image: url("../image/stats.gif");
+    background-repeat:repeat;
+
+}
+
+body.john {
+    background-image: url("../image/john-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* Main invitation area */
 
 .invite-page {
