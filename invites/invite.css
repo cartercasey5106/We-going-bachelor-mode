@@ -52,6 +52,11 @@ body.luke {
     background-size: cover;
     background-position: center;
 }
+
+body.nick {
+    background-image: url("../image/nickbg.gif");
+    background-repeat: repeat;
+}
 /* Main invitation area */
 
 .invite-page {
