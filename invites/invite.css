@@ -57,6 +57,13 @@ body.nick {
     background-image: url("../image/nickbg.gif");
     background-repeat: repeat;
 }
+
+body.invitepage {
+    background-image: url("../image/happybackground.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /* Main invitation area */
 
 .invite-page {
